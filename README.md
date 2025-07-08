@@ -6,7 +6,8 @@ Este repositorio se refiere a la segunda unidad de Estructuras de Datos, donde s
 ## Requirements
 - Java JDK 11 or higher
 - Git 2.20 or higher
-
+ ## Resultados
+ ![alt text](image.png)
 
 ## Definición de Maps en Java
 
