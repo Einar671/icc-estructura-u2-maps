@@ -8,6 +8,8 @@ Este repositorio se refiere a la segunda unidad de Estructuras de Datos, donde s
 - Git 2.20 or higher
  ## Resultados
  ![alt text](image.png)
+ ![alt text](image-1.png)
+ ![alt text](image-2.png)
 
 ## Definición de Maps en Java
 
