@@ -74,7 +74,7 @@ public class Mapa {
 
         System.out.println("Mapa empleados tree");
         Map<Empleado, Integer> empleados2 = new TreeMap<>();
-        empleados2.put(new Empleado(3, "Pedro", "Tester"),1000);
+        empleados2.put(new Empleado(8, "Pedro", "Tester"),1000);
         empleados2.put(new Empleado(1, "Ana", "Dev"),1200);
         empleados2.put(new Empleado(1, "Ana", "Dev"),1700);
         empleados2.put(new Empleado(1, "Ana", "Dev"),7200);

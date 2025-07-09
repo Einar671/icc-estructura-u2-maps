@@ -35,7 +35,6 @@ public class Empleado implements Comparable<Empleado>{
         final int prime = 31;
         int result = 1;
         result = prime * result + id;
-        result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;
     }
 
@@ -50,20 +49,13 @@ public class Empleado implements Comparable<Empleado>{
         Empleado other = (Empleado) obj;
         if (id != other.id)
             return false;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
-            return false;
+    
         return true;
     }
 
 @Override
 public int compareTo(Empleado other) {
     int result = Integer.compare(this.id, other.id);
-    if (result != 0) return result;
-
-    result = this.name.compareToIgnoreCase(other.name);
     if (result != 0) return result;
 
     return this.position.compareToIgnoreCase(other.position);
